@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-color: rgb(122, 246, 255);
+  color: #222;
+  overflow: hidden; /* Hide overflow content */
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(47, 0, 255);
+}
+form {
+  /* position: fixed;
+  bottom: 500px;
+  right: 30%;
+  left: 30%; */
+  border-radius: 8px;
+  border: 2px solid rgb(66, 66, 180);
+  color: #000;
+  box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.items {
+  border-radius: 8px;
+  overflow: hidden; /* Hide overflow content */
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+.completedTodo {
+  background-color: darkgray;
+  text-decoration: line-through;
+}
